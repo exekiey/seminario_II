@@ -104,12 +104,13 @@ Matrix4x4 V = Camera.main.worldToCameraMatrix;
 0.00000 0.00000 -1.00000 0.00000
 0.00000 0.00000 0.00000 1.00000
 ```
-## 14. Aplica una rotación en el start de uno de los objetos de la escena y muestra la
-matriz de cambio al sistema de referencias mundial.
+## 14. Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
+```
 0.93872 -0.04322 0.34197 0.00000
 0.05233 0.99848 -0.01745 0.00000
 -0.34069 0.03428 0.93955 0.00000
 0.00000 0.00000 0.00000 1.00000
+```
 ## 15. ¿Cómo puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?
 ```
 Position (3, 1, 1), Rotation (45, 0, 45)
