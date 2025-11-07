@@ -8,8 +8,7 @@ transform.Rotate(...)
 
 Escalado: transform.localScale = ...
 ```
-## 2. ¿Cómo trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas
-30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
+## 2. ¿Cómo trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
 ### Caso 1
 
 ```
