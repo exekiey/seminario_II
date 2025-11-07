@@ -17,12 +17,14 @@ transform.position += new Vector3(2f,2f,2f);
 
 transform.rotation = Quaternion.Euler(0f,30f,0f) * transform.rotation;
 ```
+![2](2.png)
 ### Caso 2
 ```
 transform.rotation = Quaternion.Euler(0f,30f,0f) * transform.rotation;
 
 transform.position += new Vector3(2f,2f,2f);
 ```
+![2b](2b.png)
 En nuestro caso el resultado no es el mismo porque la dirección de los ejes de traslación se modifica al rotarlo.
 ## 3. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 ```
@@ -34,12 +36,14 @@ sphere.transform.localScale = Vector3.one * 2f;
 
 camera.nearClipPlane = 3.5f;
 ```
+![3](3.png)
 ## 4. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
 ```
 sphere.transform.position = camera.transform.forward * 0.5f;
 
 camera.nearClipPlane = 1f;
 ```
+![4](4.png)
 ## 5. ¿Cómo puedes aumentar el ángulo de la cámara?. Qué efecto tiene disminuir el ángulo de la cámara.
 ```
 Camera.main.fieldOfView += 10f;
@@ -179,6 +183,7 @@ Matrix4x4 m = Matrix4x4.TRS(new Vector3(3, 1, 1), Quaternion.Euler(45, 0, 45), V
 (0.07, -0.03, 0.92)
 (0.53, 0.48, 0.92)
 ```
+![2025_11_07_0hd_Kleki](2025_11_07_0hd_Kleki.png)
 ## 18. Mover o rotar uno de los cubos y mostrar cómo cambian los valores de su matriz
 de modelo. Rotar la cámara y mostrar cómo se modifica la matriz de vista.
 Cambiar entre proyección ortográfica y perspectiva y comparar las diferencias
